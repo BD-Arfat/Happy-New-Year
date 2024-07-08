@@ -6,3 +6,34 @@
   margin: 0px;
   font-family: "Merriweather", serif;
 }
+/* banner section */
+.banner-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  background-image: url("../images/Banner Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+.banner-content p {
+  font-size: 32px;
+  color: #ffffff;
+}
+.banner-content h1 {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 16px;
+}
