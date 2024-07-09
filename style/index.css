@@ -192,3 +192,50 @@
   margin-top: 16px;
   margin-bottom: 12px;
 }
+/* Holidays Sale 50% style  */
+.holiday-container {
+  max-width: 1200px;
+  position: relative;
+  margin: 0px auto;
+}
+.holiday-content {
+  text-align: center;
+  margin-top: 142px;
+}
+.holiday-content h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.holiday-content h1 {
+  font-size: 72px;
+  margin-top: 16px;
+  margin-bottom: 23px;
+}
+
+.holiday-offer-content {
+  width: 1200px;
+  margin: 0px auto;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top: 360%;
+}
+.giftBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 674px;
+  height: 577px;
+  position: relative;
+  bottom: 180%;
+}
+.arfat-image {
+  margin-top: -140px;
+  position: relative;
+  left: 4px;
+}
+.discount {
+  position: absolute;
+  top: 200%;
+  left: 55%;
+}
