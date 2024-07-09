@@ -192,50 +192,34 @@
   margin-top: 16px;
   margin-bottom: 12px;
 }
-/* Holidays Sale 50% style  */
-.holiday-container {
-  max-width: 1200px;
-  position: relative;
-  margin: 0px auto;
-}
-.holiday-content {
-  text-align: center;
-  margin-top: 142px;
-}
-.holiday-content h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-.holiday-content h1 {
-  font-size: 72px;
-  margin-top: 16px;
-  margin-bottom: 23px;
-}
 
-.holiday-offer-content {
+/* Portfolio style  */
+.Portfolio-container {
   width: 1200px;
   margin: 0px auto;
-  height: 229px;
-  background-color: red;
-  position: absolute;
-  top: 360%;
 }
-.giftBox {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 674px;
-  height: 577px;
-  position: relative;
-  bottom: 180%;
+.Portfolio-content {
 }
-.arfat-image {
-  margin-top: -140px;
-  position: relative;
-  left: 4px;
+.Portfolio-content h4 {
+  color: red;
+  margin-bottom: 16px;
+  font-size: 24px;
 }
-.discount {
-  position: absolute;
-  top: 200%;
-  left: 55%;
+.Portfolio-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.Portfolio-content p {
+  width: 696px;
+}
+.Portfolio-items {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.item img {
+  width: 360px;
+  height: 360px;
 }
